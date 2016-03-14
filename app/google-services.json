@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_id": "lanoda-android-dev",
+    "project_number": "520243520463",
+    "name": "Lanoda-Android-Dev"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520243520463:android:b6de957117a41607",
+        "client_id": "android:com.isaacvanhouten.lanoda",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.isaacvanhouten.lanoda",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520243520463-kokceqa0dg3m7s3kne5enmbrv4gk2pgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isaacvanhouten.lanoda",
+            "certificate_hash": "106A13295F217DE8F8DE73DD5012215F6960BB53"
+          }
+        },
+        {
+          "client_id": "520243520463-sjlmno4kua4lv6b6s2ol2skafug85ia5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75071650-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520243520463-sjlmno4kua4lv6b6s2ol2skafug85ia5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
