@@ -13,7 +13,12 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            buildConfigField 'String', 'API_URL', "\"http://dev.lanoda.net/\""
+        }
+
         release {
+            buildConfigField 'String', 'API_URL', "\"http://www.lanoda.net/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
