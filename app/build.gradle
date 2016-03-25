@@ -14,7 +14,7 @@ android {
     }
     buildTypes {
         debug {
-            buildConfigField 'String', 'API_URL', "\"http://dev.lanoda.net/\""
+            buildConfigField 'String', 'API_URL', "\"http://192.168.1.78:8000/\""
         }
 
         release {

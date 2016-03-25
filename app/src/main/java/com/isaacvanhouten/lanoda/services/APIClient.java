@@ -30,7 +30,6 @@ public class APIClient {
     }
 
     private static String API_URL = BuildConfig.API_URL;
-    private static String CSRF_TOKEN;
 
     public static String MakeAPICall(String urlPath, HttpMethod method, Map<String, String> params) {
         String urlString = API_URL + urlPath;
@@ -54,7 +53,7 @@ public class APIClient {
             conn = (HttpURLConnection) obj.openConnection();
 
             //add reuqest header
-            conn.setRequestMethod("POST");
+            conn.setRequestMethod(method.name());
             conn.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 
             //Request Parameters you want to send
